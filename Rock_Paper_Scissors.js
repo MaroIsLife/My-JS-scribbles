@@ -27,11 +27,11 @@ const getComputerChoice = () => {
 
 const determineWinner = (userChoice,computerChoice) => {
 
-	if (userChoice === computerChoice)
-		return ('It\'s a tie!');
+	if (userChoice === 'bomb')
+		return ('User won!');
 
-	else if (userChoice === 'bomb')
-		return ('User used Bomb, User won!');
+	else if (userChoice === computerChoice)
+		return ('It\'s a tie!);
 
 	else if (userChoice === 'paper' && computerChoice === 'scissors')
 		return ('CPU chose Scissors, Computer Won!');
