@@ -31,7 +31,7 @@ const determineWinner = (userChoice,computerChoice) => {
 		return ('User won!');
 
 	else if (userChoice === computerChoice)
-		return ('It\'s a tie!);
+		return ('It\'s a tie!');
 
 	else if (userChoice === 'paper' && computerChoice === 'scissors')
 		return ('CPU chose Scissors, Computer Won!');
