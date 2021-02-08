@@ -66,7 +66,7 @@ const validateCred = (array) => {
         console.log('Invalid Credit Card');
 }
 
-validateCred(batch);
+validateCred(valid1);
 
 
 //I MADE THIS USING THe LUHN ALGORITHM
