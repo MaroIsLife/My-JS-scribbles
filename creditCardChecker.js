@@ -69,6 +69,6 @@ const validateCred = (array) => {
 validateCred(valid1);
 
 
-//I MADE THIS USING THe LUHN ALGORITHM
+//I MADE THIS USING THe LUHN ALGORITHM 
 
 //https://www.geeksforgeeks.org/luhn-algorithm/
